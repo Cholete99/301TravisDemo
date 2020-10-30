@@ -95,7 +95,7 @@ class CityListTest {
     }
 
     @Test
-    void returnEdmonton() {
+    void testReturnEdmonton() {
         CityList cityList = mockCityList();
         assertEquals("Edmonton", cityList.returnEdmonton());
     }
